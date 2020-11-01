@@ -2,6 +2,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -48,11 +49,56 @@ html,body{
 }
 
 .landing-text h1{
-    font-size: 400%;
+    font-size: 300%;
     font-weight: 700;
-    
+}
+
+@media (max-width: 768px){
+    .landing-text h1{
+        font-size: 150%;
+    }
 }
 
 .padding{
     padding: 80px 0;
+}
+.padding img{
+    width: 60%;
+}
+.text-heading{
+    font-size: 350%;
+    font-weight: 700;
+}
+
+#fixed{
+    background: url(img/start-up-background.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    background-color: #23415C;
+    padding: 5% 5% 10% 5;
+    color: #FFF;
+    
+}
+
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.fa:hover{
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.footer-logo img{
+    max-height: 70%;
+    max-width: 70%;
 }
