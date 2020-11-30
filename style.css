@@ -110,9 +110,6 @@ footer{
 }
 
 .unete{
-    border: 4px black solid;
+    background-color: #cffea3;
 }
 
-.unete .nosotros-text{
-    color: limegreen;
-}
