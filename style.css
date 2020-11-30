@@ -103,6 +103,16 @@ footer{
     max-width: 70%;
 }
 
-.img-ceo{
-    border-radius: 50%;
+.nosotros-text{
+    color:lightskyblue;
+    font-weight: 700;
+    font-size: 450%;
+}
+
+.unete{
+    border: 4px black solid;
+}
+
+.unete .nosotros-text{
+    color: limegreen;
 }
